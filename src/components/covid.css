@@ -1,0 +1,140 @@
+/* .App {
+    text-align: center;
+  }
+  
+  .card__main {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+  }
+  
+  .App-link {
+    color: #61dafb;
+  } */
+  
+  /* @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  } */
+  body {
+    /* margin: 0; */
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: black;
+  }
+  *{
+      text-align: center;
+  }
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  .mainbody {
+    background-color: rgb(68, 66, 66);
+    padding: 20px;
+    text-align: center;
+    min-height: 100vh;
+    align-items: center;
+    
+  }
+  
+  h1, p, h2 {
+    color: white;text-decoration-style: dashed;
+    text-shadow: -10px -10px 10px black;
+  }
+  
+  ul{
+    list-style-type:none;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card__main {
+      cursor: pointer;
+    height: 150px;
+    width: 350px;
+    align-items: center;
+    padding: 15px;
+    border: 20px solid black;
+    border-radius: 20px;
+  }
+  #one{
+    background: linear-gradient(121.57deg,rgb(116, 116, 231)25% , rgb(41, 75, 226)50.15%,  #00075c 18.77% );
+
+  }
+  #two{
+    background: linear-gradient(121.57deg, rgb(243, 108, 103)25%,  rgb(165, 10, 10)50.15% ,   #5c0000 50.77%);
+  }
+  #three{
+    background: linear-gradient(121.57deg, rgb(157, 250, 121),  rgb(50, 172, 2)50.15% ,   #014701 50.77%);
+  }
+  #four{
+    background: linear-gradient(121.57deg, rgb(117, 204, 175)20%,  rgb(2, 107, 102)50.15%  ,   #013d3a 20.77%);
+  }
+  #five{
+    background: linear-gradient(121.57deg, rgb(197, 117, 204) 20.77%,  rgb(122, 2, 116)50.15% , #33013d 2%);
+
+  }
+  #six{
+    background: linear-gradient(121.57deg, rgb(233, 223, 137) 20.77%,  rgb(119, 121, 1)50.15%, #3c3d01 2%);
+  }
+  #one:hover{
+    background: linear-gradient(121.57deg, #00075c 50.77%,  rgb(41, 75, 226)5.15% , rgb(116, 116, 231));
+
+  }
+  #two:hover{
+    background: linear-gradient(121.57deg, #5c0000 50.77%,  rgb(165, 10, 10)5.15% , rgb(243, 108, 103));
+  }
+  #three:hover{
+    background: linear-gradient(121.57deg, #014701 50.77%,  rgb(50, 172, 2)5.15% , rgb(157, 250, 121));
+  }
+  #four:hover{
+    background: linear-gradient(121.57deg, #013d3a 50.77%,  rgb(2, 107, 102)5.15% , rgb(117, 204, 175));
+  }
+  #five:hover{
+    background: linear-gradient(121.57deg, #33013d 50.77%,  rgb(122, 2, 116)5.15% , rgb(197, 117, 204));
+  }
+  #six:hover{
+    background: linear-gradient(121.57deg, #3c3d01 50.77%,  rgb(119, 121, 1)5.15% , rgb(233, 223, 137));
+  }
+  .card__name{
+    font-size: 25px;
+    font-weight: bold;
+
+  }
+  
+  .card__name span {
+    font-size: 15px;
+
+  }
+  
+  .card__total {
+    font-size: 20px;
+    font-weight: bold;
+
+  }
